@@ -41,7 +41,7 @@ void main() {
 class MyApp extends StatelessWidget {
   MyApp({super.key});
 
-  List students = [
+  final List students = [
     {"name": "Ahmed", "age": 33, "Rang": 1, "Nationality": "Tunisian"},
     {"name": "Zahra", "age": 25, "Rang": 4, "Nationality": "Iraquian"},
     {"name": "Hedi", "age": 47, "Rang": 2, "Nationality": "Syrian"},
